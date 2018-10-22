@@ -1,0 +1,92 @@
+* { 
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Trubuchet MS", Arial, sans-serif;
+  margin: 20px;
+  }
+
+  header {
+    background-color: #3f474b;
+    color: #ba5e78;
+    padding: 50px 0;
+  }
+
+  h1, h2 {
+    text-align: center;
+  }
+
+  .dinner-list-wrapper {
+    background-color: #343b42;
+
+  }
+
+  section {
+    width: 60%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0 auto;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  li {
+    padding: 0 5px ;
+    color: white;
+    /* height: 50px; */
+    border: 2px solid transparent;
+
+    transition: all 0.8s; 
+  }
+
+  li:nth-child(2n) {
+    background-color: #635770;
+  }
+
+  li:nth-child(2n+1) {
+    background-color: #847897;
+  }
+
+  li:hover{
+    border: 2px solid white;
+    /* background-color: #3f478b; */
+    transition: all 0.8s;
+  }
+
+  label {
+    display: block;
+    width: 100%;
+  }
+
+  /* label:active {
+    background-color: red;
+  } */
+
+  p {
+    display: inline-block;
+  }
+
+  input:checked + p {
+    text-decoration: line-through;
+  }
+
+  footer {
+    padding: 10px 0 50px;
+  }
+
+  .footer-inner {
+    display: block;
+    line-height: 50px;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    background-color: #3f478b;
+    color: #ba5e78;
+
+  }
+
